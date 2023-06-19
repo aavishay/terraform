@@ -38,4 +38,17 @@
 - Prometheus_Grafana module depends on GKE module
 - NGINX module depends on GKE module
 
-
+## Project structure
+```
+├── company-name
+│   └── environment-name
+│       └── cloud-provider
+│           └── resource-name
+│               ├── terraform-files
+│               ├── terraform.tfvars
+│               └── terragrunt.hcl
+└── modules
+    └── cloud-provider
+        └── resource-module
+            └── terraform-files
+```
